@@ -39,7 +39,6 @@ class Record:
         if not phone_obj:
             raise ValueError("Old phone number not found")
 
-
         new_phone_obj = Phone(new_phone)
 
         self.remove_phone(old_phone)
